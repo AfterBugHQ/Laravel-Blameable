@@ -2,11 +2,11 @@
 
 namespace AfterBugHQ\Blameable\Tests;
 
-use AfterBugHQ\Blameable\Tests\Models\User;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
+use Illuminate\Foundation\Application;
+use Illuminate\Database\Schema\Blueprint;
+use AfterBugHQ\Blameable\Tests\Models\User;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase

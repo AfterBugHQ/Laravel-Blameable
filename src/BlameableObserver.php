@@ -2,9 +2,9 @@
 
 namespace AfterBugHQ\Blameable;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Database\Eloquent\Model;
 
 class BlameableObserver
 {
