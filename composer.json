@@ -1,0 +1,25 @@
+{
+    "name": "afterbughq/blameable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alfa Adhitya",
+            "email": "alfa@afterbug.net"
+        }
+    ],
+    "require": {
+        "php" : ">=7.1.3",
+        "illuminate/database": "~5.6.0|~5.7.0|~5.8.0",
+        "illuminate/support": "~5.6.0|~5.7.0|~5.8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.6.0|~3.7.0|~3.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AfterBugHQ\\Blameable\\": "src/",
+            "AfterBugHQ\\Blameable\\Tests\\": "tests/"
+        }
+    }
+}
