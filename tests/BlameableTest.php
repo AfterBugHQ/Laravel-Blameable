@@ -2,9 +2,9 @@
 
 namespace AfterBugHQ\Blameable\Tests;
 
+use AfterBugHQ\Blameable\Tests\Models\Post;
 use AfterBugHQ\Blameable\Tests\Models\Article;
 use AfterBugHQ\Blameable\Tests\Models\CustomBlameableModel;
-use AfterBugHQ\Blameable\Tests\Models\Post;
 
 class BlameableTest extends TestCase
 {
